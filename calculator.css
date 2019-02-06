@@ -1,10 +1,11 @@
 #outline {
     width: 250px;
-    height: 400px;
+    height: 350px;
 }
 .calculator {
     border-radius: 3px;
     background-color: grey;
+    font-size: 25px
 }
 #display {
     background-color: #bcbcbc;
@@ -14,9 +15,83 @@
     left: 2.5%;
     position: relative;
 }
-#displaytext {
+.displaytext {
     position:relative;
     left: 5%;
     text-align: right;
-    width: 90%
+    width: 90%;
+    font-size: 20px;
+    padding-top:0px;
+    margin: 10px;
+    margin-left:0px;
+}
+#displayUpper {
+  font-size: 18px;
+  color: blue;
+  padding-top:5px;
+}
+#displayLower {
+  font-size: 22px;
+  padding-top: 2px;
+}
+#buttonDisplay1 {
+  background-color: #9c9c9c;
+  width: 71.25%;
+  height: 73%;
+  top: 2%;
+  margin-top:4%;
+  left: 2.5%;
+  position: relative;
+  display: flex; 
+  flex-flow: row wrap; 
+  overflow:auto;
+  border-radius:0px;
+  float:left;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 3px;
+}
+.buttons {
+  width:28.33%;
+  height: 20%;
+  margin: 2.5%;
+  text-align: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  display: flex; 
+  flex-flow: row wrap; 
+  overflow:auto;
+}
+.content {
+  width:100%;
+}
+#buttonDisplay2 {
+  background-color: #9c9c9c;
+  width: 23.75%;
+  height: 73%;
+  top: 2%;
+  margin-top:4%;
+  left: 2.5%;
+  position: relative;
+  display: flex; 
+  flex-flow: column wrap; 
+  overflow:auto;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 0px;
+}
+.buttons2{
+  width:85%;
+  height: 41.15px;
+  margin-top: 4.453px;
+  margin-bottom: 4.453px;
+  margin-left:4.453px;
+  text-align: center;
+  align-items: center;
+  background-color: #e2e2e2;
+  display: flex; 
+  flex-flow: row wrap; 
+  overflow:auto;
 }
